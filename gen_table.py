@@ -37,7 +37,7 @@ for ref_utt, group_df in grouped:
 
     # Create table header
     main_table_header = f"""
-        <h3>Reference Text: {ref_text_map[ref_utt]}</h3>
+        <h4>Reference Text: {ref_text_map[ref_utt]}</h3>
         <table class="custom-table">
             <tr>
                 
